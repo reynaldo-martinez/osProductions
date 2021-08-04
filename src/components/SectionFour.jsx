@@ -37,6 +37,7 @@ export const SectionFour = () => {
                             value={nombre}
                             onChange={handleInputChange}
                             required
+                            variant='outlined'
                         />
                     </div>
 
@@ -50,8 +51,7 @@ export const SectionFour = () => {
                             value={correo}
                             onChange={handleInputChange}
                             required
-
-
+                            variant='outlined'
                         />
                     </div>
 
@@ -66,20 +66,18 @@ export const SectionFour = () => {
                             value={mensaje}
                             onChange={handleInputChange}
                             required
-
-
-
+                            variant='outlined'
                         />
 
                     </div>
 
 
-                    <div>
+                    <div className='btn-container'>
                         <button type='submit'>Enviar</button>
-                <a href="mailto:" className='hidden'>mail</a>
 
                     </div>
                 </form>
+                <a href="mailto:" className='hidden'>mail</a>
 
             </div>
 
