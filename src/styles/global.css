@@ -1,6 +1,8 @@
 @import './components/navbar.css';
 @import './components/section1.css';
 @import './components/section2.css';
+@import './components/section3.css';
+
 @import './components/section4.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
