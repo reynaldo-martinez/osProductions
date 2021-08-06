@@ -2,7 +2,6 @@
     width: 100%;
     height: 100vh;
    
-
    display: grid;
    grid-gap: 1rem;
    grid-template-columns: repeat(2  , 1fr);
@@ -19,15 +18,114 @@
   
 }
 
+/*---------------MODAL*/
+
+.modal-container{
+    width: 100vw;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+   
+    background-color: rgba(0, 0, 0, .8);
+    transition: all 500ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.modal{
+    width:40%;
+    height: 90%;
+    background-color: white;
+    position: absolute;
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    border-radius: 1rem;
+  
+    
+}
+
+.header-modal{
+    display: flex;
+    justify-content: flex-end;
+    grid-row: 1/2;
+    background-color: white;
+    box-shadow: 0px  3px 2px #000;
+    border-radius: 1rem 1rem 0rem 0rem;
+
+}
+
+.header-modal button{
+    border: 0px;
+    outline: none;
+    width: 10%;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+
+
+.img-container{
+   
+    grid-row: 2/9;
+    overflow: hidden;
+    
+    
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.modal-body{
+    grid-row: 9/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    max-height: 100%;
+}
+.modal-body p{
+    text-align: justify;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: .5rem;
+}
+
 @media screen and (max-width : 800px){
     .section3-container{
         grid-template-columns: 1fr;
         overflow-y: scroll;
+        
     }
 
     .card-container{
         width: 90%;
         height: 30%;
+    }
+
+    .modal{
+        width: 100%;
+    margin: .5rem;
+       
+    }
+
+    .modal-body, .modal-body p{
+        font-size: .625rem;
     }
 }
 

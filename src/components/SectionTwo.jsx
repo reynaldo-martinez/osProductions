@@ -24,10 +24,12 @@ const info = [
 
 export const SectionTwo = () => {
     return (
-        <div className='section-container' id='Nosotros'>
+        <div className='section-container' id='Nosotros'
+        >
             {
                 info.map(info => (
                     <CardSectionTwo
+                    
                      key={info.title}
                      info={info} 
                      />
