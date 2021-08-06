@@ -1,6 +1,6 @@
 import React from 'react'
 import MenuIcon from '@material-ui/icons/Menu';
-import logo from '../../public/Logo blanco.png';
+import logo from '/Logo blanco.png';
 
 
 const menuItems = [

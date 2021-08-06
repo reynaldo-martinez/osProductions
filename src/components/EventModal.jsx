@@ -26,9 +26,9 @@ export const EventModal = ({isOpen, setIsOpen, item}) => {
                                 <div className="info">
                                     <h4>Cantante: {item.cantante}</h4>
                                     <h5>Lugar: {item.lugar}</h5>
-                                    <h5>Hora: {item.hora}</h5>
+                                    <h5>Fecha: {item.fecha}</h5>
                                 </div>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio corrupti nulla eius deserunt maxime omnis quam illo. Aperiam facere voluptatem explicabo in exercitationem. Unde doloremque exercitationem blanditiis temporibus in vitae.</p>
+                                <p>{item.caption}</p>
                             </div>
                         </div>
                     </div>

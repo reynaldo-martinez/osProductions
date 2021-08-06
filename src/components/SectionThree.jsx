@@ -6,38 +6,23 @@ const items = [
 
     {
         id : 1,
-        src : '../../public/Miercoles 4 de Agosto.png',
-        cantante : 'Gabriela Moran',
-        caption : 'Evento donde Gaby estará haciendo homenaje a Ana Gabriel',
-        lugar : 'Caliches Bar Santa Ana',
-        hora : '9:PM'
+        src : '/juani.png',
+        cantante : 'Juani García',
+        caption : 'Evento donde Juani interpretará música de tres grandes Divas de la canción: Ana Gabriel,Rocío Durcal y Selena.',
+        lugar : ' Caliches Maya Santa Ana',
+        fecha : '6 de Agosto'
     },
 
     {
         id : 2,
-        src : '../../public/Caliche´s Plaza Maya,6 de agosto.png',
-        cantante : 'Gabriela Moran',
+        src : '/gaby.jpeg',
+        cantante : 'Gaby Campos',
         caption : 'Evento donde Gaby estará haciendo homenaje a Ana Gabriel',
-        lugar : 'Caliches Bar Santa Ana',
-        hora : '9:PM'
+        lugar : 'Caribú bar Santa Ana',
+        fecha : '6 de Agosto'
 
     },
-    {
-        id : 3,
-        src : '../../public/Miercoles 4 de Agosto.png',
-        cantante : 'Gabriela Moran',
-        caption : 'Evento donde Gaby estará haciendo homenaje a Ana Gabriel',
-        lugar : 'Caliches Bar Santa Ana',
-        hora : '9:PM'
-    },
-    {
-        id : 4,
-        src : '../../public/Miercoles 4 de Agosto.png',
-        cantante : 'Gabriela Moran',
-        caption : 'Evento donde Gaby estará haciendo homenaje a Ana Gabriel',
-        lugar : 'Caliches Bar Santa Ana',
-        hora : '9:PM'
-    },
+    
  
     
   
@@ -47,6 +32,9 @@ const items = [
 export const SectionThree = () => {
     return (
         <div className='section3-container' id='Eventos'>
+            <h2 data-aos="fade-down" data-aos-duration='2000'>Revisa nuestros próximos eventos</h2>
+
+            <div className="events-list">
             {
                 items.map( i => (
                     <EventCard 
@@ -56,6 +44,8 @@ export const SectionThree = () => {
                     />
                 ))
             }
+            </div>
+            
         </div>
     )
 }

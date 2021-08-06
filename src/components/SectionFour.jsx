@@ -27,6 +27,8 @@ export const SectionFour = () => {
     return (
         <div className='section4-container' id='Contáctanos'>
             <div className="form-contact" >
+            <h3>¿Necisitas elenco o eres artista? Contáctanos</h3>
+
                 <form onSubmit={handleSubmit} data-aos="flip-left" data-aos-duration='3000'>
 
                     <div>
@@ -83,16 +85,14 @@ export const SectionFour = () => {
 
             <div className="redes">
                 <div className="red">
-                    <a href="https://www.facebook.com/orgullosantaneco10" data-aos="fade-up" data-aos-duration='3000' target='blank'><FacebookIcon fontSize='large' color='primary'/></a>
+                    <a href="https://www.facebook.com/orgullosantaneco10"  target='blank'><FacebookIcon fontSize='large' color='primary'/></a>
                 </div>
 
                 <div className="red">
-                    <a href="https://www.instagram.com/santanecosv/" data-aos="fade-up" data-aos-duration='3000' target='blank'><InstagramIcon fontSize='large' style={{ color : '#e91e63' }} /></a>
+                    <a href="https://www.instagram.com/santanecosv/"  target='blank'><InstagramIcon fontSize='large' style={{ color : '#e91e63' }} /></a>
                 </div>
 
-                <div className="red">
-                    <a href="https://www.instagram.com/santanecosv/" data-aos="fade-up" data-aos-duration='3000' target='blank'><InstagramIcon fontSize='large' /></a>
-                </div>
+                
 
             </div>
         </div>

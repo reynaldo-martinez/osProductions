@@ -1,5 +1,5 @@
 import React from 'react'
-import cover from '../../public/concert-3387324_1920.jpg';
+import cover from '/concert-3387324_1920.jpg';
 
 const sectionStyle = {
     backgroundImage: `url(${cover})`,

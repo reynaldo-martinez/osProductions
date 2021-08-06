@@ -19,6 +19,8 @@
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
     font-family: 'Montserrat', sans-serif;
+    border-right: .03125rem solid   rgb(218, 211, 211) ;
+
 
 }
 
@@ -36,7 +38,6 @@
 .card-info{
     grid-column: 1/-1;
     grid-row: 2/-1;
-    border-right: 1px solid   rgb(218, 211, 211) ;
     
     display: flex;
     justify-content: center;

@@ -28,10 +28,10 @@ export const EventCard = ({item}) => {
                 
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                        Gaby Hernandez
+                        {item.cantante}
                     </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        {item.caption}
+                        {item.fecha}
                     </Typography>
                 </CardContent>
             </CardActionArea>
