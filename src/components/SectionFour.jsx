@@ -27,7 +27,7 @@ export const SectionFour = () => {
     return (
         <div className='section4-container' id='Contáctanos'>
             <div className="form-contact" >
-            <h3>¿Necisitas elenco o eres artista? Contáctanos</h3>
+            <h3>¿Necesitas elenco o eres artista? Contáctanos</h3>
 
                 <form onSubmit={handleSubmit} data-aos="flip-left" data-aos-duration='3000'>
 
