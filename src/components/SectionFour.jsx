@@ -19,7 +19,7 @@ export const SectionFour = () => {
         e.preventDefault()
 
         const hidden = document.querySelector('.hidden')
-        hidden.setAttribute('href', `mailto:reynaldovalle222@gmail.com?subject=${nombre}${correo}&body=${mensaje}`)
+        hidden.setAttribute('href', `mailto:orgullosantaneco10@gmail.com?subject=${nombre}${correo}&body=${mensaje}`)
         console.log(hidden);
         hidden.click()
         reset()
